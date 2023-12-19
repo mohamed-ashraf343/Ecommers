@@ -1,0 +1,61 @@
+/* start main rulez */
+
+body {
+    background-color: #f4f4f4;
+}
+
+
+/* end main rulez */
+
+
+/* start login form */
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login h4 {
+    color: #888;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color: #EAEAEA;
+}
+
+.login .btn {
+    width: 100%;
+    background-color: #008dde;
+}
+
+.form-control:focus::placeholder {
+    opacity: 0;
+}
+
+.nav-item {
+    font-size: 1rem;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: aqua;
+}
+
+.show-pass {
+    position: absolute;
+    top: 13.5rem;
+    right: 16rem;
+    cursor: pointer;
+}
+
+/* end form login */
